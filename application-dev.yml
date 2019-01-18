@@ -23,7 +23,7 @@ spring:
     port: 6379
     timeout: 0
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     filters: stat,wall
     druid:
       initial-size: 50
